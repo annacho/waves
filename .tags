@@ -1,0 +1,26 @@
+export.loading	/Users/annacho/waves/client/src/hoc/auth.js	/^    state = {$/;"	property	line:9
+componentDidMount	/Users/annacho/waves/client/src/hoc/auth.js	/^    componentDidMount(){$/;"	function	line:13
+render	/Users/annacho/waves/client/src/hoc/auth.js	/^    render () {$/;"	function	line:35
+mapStateToProps	/Users/annacho/waves/client/src/hoc/auth.js	/^  function mapStateToProps(state){$/;"	function	line:49
+mapStateToProps	/Users/annacho/waves/client/src/hoc/auth.js	/^  function mapStateToProps(state){$/;"	function	line:49
+registerUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function registerUser(dataToSubmit){$/;"	function	line:10
+loginUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function loginUser(dataToSubmit){$/;"	function	line:21
+auth	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function auth(){$/;"	function	line:32
+logoutUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function logoutUser(){$/;"	function	line:44
+switch	/Users/annacho/waves/client/src/reducers/user_reducer.js	/^  switch(action.type){$/;"	function	line:9
+class.page	/Users/annacho/waves/client/src/components/Header_footer/Header/index.js	/^  state = {$/;"	property	line:9
+render	/Users/annacho/waves/client/src/components/Header_footer/Header/index.js	/^  render () {$/;"	function	line:108
+mapStateToProps	/Users/annacho/waves/client/src/components/Header_footer/Header/index.js	/^function mapStateToProps(state){$/;"	function	line:131
+mapStateToProps	/Users/annacho/waves/client/src/components/Header_footer/Header/index.js	/^function mapStateToProps(state){$/;"	function	line:131
+dots	/Users/annacho/waves/client/src/components/Home/home_slider.js	/^  const settings = {$/;"	property	line:24
+infinite	/Users/annacho/waves/client/src/components/Home/home_slider.js	/^    dots: false,$/;"	property	line:25
+speed	/Users/annacho/waves/client/src/components/Home/home_slider.js	/^    infinite: true,$/;"	property	line:26
+slidesToShow	/Users/annacho/waves/client/src/components/Home/home_slider.js	/^    speed: 500,$/;"	property	line:27
+slidesToScroll	/Users/annacho/waves/client/src/components/Home/home_slider.js	/^    slidesToShow: 1,$/;"	property	line:28
+arrows	/Users/annacho/waves/client/src/components/Home/home_slider.js	/^    slidesToScroll: 1,$/;"	property	line:29
+const.img	/Users/annacho/waves/client/src/components/Home/home_promotion.js	/^  const promotion = {$/;"	property	line:6
+const.lineOne	/Users/annacho/waves/client/src/components/Home/home_promotion.js	/^    img:'\/images\/featured\/featured_home_3.jpg',$/;"	property	line:7
+const.lineTwo	/Users/annacho/waves/client/src/components/Home/home_promotion.js	/^    lineOne:'Up to 40% off',$/;"	property	line:8
+const.linkTitle	/Users/annacho/waves/client/src/components/Home/home_promotion.js	/^    lineTwo:'In second hand guitars',$/;"	property	line:9
+const.linkTo	/Users/annacho/waves/client/src/components/Home/home_promotion.js	/^    linkTitle:'Shop now',$/;"	property	line:10
+render	/Users/annacho/waves/client/src/components/Home/index.js	/^  render () {$/;"	function	line:6
