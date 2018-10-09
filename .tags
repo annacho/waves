@@ -3,10 +3,6 @@ componentDidMount	/Users/annacho/waves/client/src/hoc/auth.js	/^    componentDid
 render	/Users/annacho/waves/client/src/hoc/auth.js	/^    render () {$/;"	function	line:35
 mapStateToProps	/Users/annacho/waves/client/src/hoc/auth.js	/^  function mapStateToProps(state){$/;"	function	line:49
 mapStateToProps	/Users/annacho/waves/client/src/hoc/auth.js	/^  function mapStateToProps(state){$/;"	function	line:49
-registerUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function registerUser(dataToSubmit){$/;"	function	line:10
-loginUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function loginUser(dataToSubmit){$/;"	function	line:21
-auth	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function auth(){$/;"	function	line:32
-logoutUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function logoutUser(){$/;"	function	line:44
 switch	/Users/annacho/waves/client/src/reducers/user_reducer.js	/^  switch(action.type){$/;"	function	line:9
 class.page	/Users/annacho/waves/client/src/components/Header_footer/Header/index.js	/^  state = {$/;"	property	line:9
 render	/Users/annacho/waves/client/src/components/Header_footer/Header/index.js	/^  render () {$/;"	function	line:108
@@ -23,4 +19,15 @@ const.lineOne	/Users/annacho/waves/client/src/components/Home/home_promotion.js	
 const.lineTwo	/Users/annacho/waves/client/src/components/Home/home_promotion.js	/^    lineOne:'Up to 40% off',$/;"	property	line:8
 const.linkTitle	/Users/annacho/waves/client/src/components/Home/home_promotion.js	/^    lineTwo:'In second hand guitars',$/;"	property	line:9
 const.linkTo	/Users/annacho/waves/client/src/components/Home/home_promotion.js	/^    linkTitle:'Shop now',$/;"	property	line:10
-render	/Users/annacho/waves/client/src/components/Home/index.js	/^  render () {$/;"	function	line:6
+registerUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function registerUser(dataToSubmit){$/;"	function	line:11
+loginUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function loginUser(dataToSubmit){$/;"	function	line:22
+auth	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function auth(){$/;"	function	line:33
+logoutUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function logoutUser(){$/;"	function	line:45
+getProductsBySell	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getProductsBySell(){$/;"	function	line:9
+getProductsByArrival	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getProductsByArrival(){$/;"	function	line:20
+switch	/Users/annacho/waves/client/src/reducers/products_reducer.js	/^  switch(action.type){$/;"	function	line:7
+componentDidMount	/Users/annacho/waves/client/src/components/Home/index.js	/^  componentDidMount(){$/;"	function	line:11
+render	/Users/annacho/waves/client/src/components/Home/index.js	/^  render () {$/;"	function	line:16
+renderCardImage	/Users/annacho/waves/client/src/components/utils/card.js	/^  renderCardImage(images){$/;"	function	line:6
+render	/Users/annacho/waves/client/src/components/utils/card.js	/^  render () {$/;"	function	line:14
+switch	/Users/annacho/waves/client/src/components/utils/button.js	/^    switch(props.type){$/;"	function	line:12
