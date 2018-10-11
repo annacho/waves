@@ -25,14 +25,7 @@ auth	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function a
 logoutUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function logoutUser(){$/;"	function	line:45
 componentDidMount	/Users/annacho/waves/client/src/components/Home/index.js	/^  componentDidMount(){$/;"	function	line:11
 render	/Users/annacho/waves/client/src/components/Home/index.js	/^  render () {$/;"	function	line:16
-renderCardImage	/Users/annacho/waves/client/src/components/utils/card.js	/^  renderCardImage(images){$/;"	function	line:6
-render	/Users/annacho/waves/client/src/components/utils/card.js	/^  render () {$/;"	function	line:14
 switch	/Users/annacho/waves/client/src/components/utils/button.js	/^    switch(props.type){$/;"	function	line:12
-switch	/Users/annacho/waves/client/src/reducers/products_reducer.js	/^  switch(action.type){$/;"	function	line:9
-getProductsBySell	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getProductsBySell(){$/;"	function	line:11
-getProductsByArrival	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getProductsByArrival(){$/;"	function	line:22
-getBrands	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getBrands(){$/;"	function	line:36
-getWoods	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getWoods(){$/;"	function	line:46
 class.open	/Users/annacho/waves/client/src/components/utils/collapseCheckbox.js	/^  state = {$/;"	property	line:15
 class.checked	/Users/annacho/waves/client/src/components/utils/collapseCheckbox.js	/^    open: false,$/;"	property	line:16
 componentDidMount	/Users/annacho/waves/client/src/components/utils/collapseCheckbox.js	/^  componentDidMount(){$/;"	function	line:20
@@ -41,9 +34,17 @@ class.open	/Users/annacho/waves/client/src/components/utils/collapseRadio.js	/^ 
 class.value	/Users/annacho/waves/client/src/components/utils/collapseRadio.js	/^    open: false,$/;"	property	line:16
 componentDidMount	/Users/annacho/waves/client/src/components/utils/collapseRadio.js	/^  componentDidMount(){$/;"	function	line:20
 render	/Users/annacho/waves/client/src/components/utils/collapseRadio.js	/^  render () {$/;"	function	line:63
-class.grid	/Users/annacho/waves/client/src/components/Shop/index.js	/^  state = {$/;"	property	line:14
-class.limit	/Users/annacho/waves/client/src/components/Shop/index.js	/^    grid:'',$/;"	property	line:15
-class.skip	/Users/annacho/waves/client/src/components/Shop/index.js	/^    limit:6,$/;"	property	line:16
-class.filters	/Users/annacho/waves/client/src/components/Shop/index.js	/^    skip:0,$/;"	property	line:17
-componentDidMount	/Users/annacho/waves/client/src/components/Shop/index.js	/^  componentDidMount(){$/;"	function	line:26
-render	/Users/annacho/waves/client/src/components/Shop/index.js	/^  render () {$/;"	function	line:56
+switch	/Users/annacho/waves/client/src/reducers/products_reducer.js	/^  switch(action.type){$/;"	function	line:10
+class.grid	/Users/annacho/waves/client/src/components/Shop/index.js	/^  state = {$/;"	property	line:19
+class.limit	/Users/annacho/waves/client/src/components/Shop/index.js	/^    grid:'',$/;"	property	line:20
+class.skip	/Users/annacho/waves/client/src/components/Shop/index.js	/^    limit:6,$/;"	property	line:21
+class.filters	/Users/annacho/waves/client/src/components/Shop/index.js	/^    skip:0,$/;"	property	line:22
+componentDidMount	/Users/annacho/waves/client/src/components/Shop/index.js	/^  componentDidMount(){$/;"	function	line:31
+render	/Users/annacho/waves/client/src/components/Shop/index.js	/^  render () {$/;"	function	line:102
+getProductsBySell	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getProductsBySell(){$/;"	function	line:12
+getProductsByArrival	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getProductsByArrival(){$/;"	function	line:23
+getProductsToShop	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getProductsToShop(skip, limit, filters =[], previousState = []){$/;"	function	line:33
+getBrands	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getBrands(){$/;"	function	line:63
+getWoods	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getWoods(){$/;"	function	line:73
+renderCardImage	/Users/annacho/waves/client/src/components/utils/card.js	/^  renderCardImage(images){$/;"	function	line:6
+render	/Users/annacho/waves/client/src/components/utils/card.js	/^  render () {$/;"	function	line:14
