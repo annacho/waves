@@ -4,4 +4,9 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-switch	/Users/annacho/waves/client/src/components/utils/button.js	/^    switch(props.type){$/;"	function	line:12
+class.grid	/Users/annacho/waves/client/src/components/Shop/index.js	/^  state = {$/;"	property	line:14
+class.limit	/Users/annacho/waves/client/src/components/Shop/index.js	/^    grid:'',$/;"	property	line:15
+class.skip	/Users/annacho/waves/client/src/components/Shop/index.js	/^    limit:6,$/;"	property	line:16
+class.filters	/Users/annacho/waves/client/src/components/Shop/index.js	/^    skip:0,$/;"	property	line:17
+componentDidMount	/Users/annacho/waves/client/src/components/Shop/index.js	/^  componentDidMount(){$/;"	function	line:26
+render	/Users/annacho/waves/client/src/components/Shop/index.js	/^  render () {$/;"	function	line:56
