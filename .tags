@@ -34,17 +34,26 @@ class.open	/Users/annacho/waves/client/src/components/utils/collapseRadio.js	/^ 
 class.value	/Users/annacho/waves/client/src/components/utils/collapseRadio.js	/^    open: false,$/;"	property	line:16
 componentDidMount	/Users/annacho/waves/client/src/components/utils/collapseRadio.js	/^  componentDidMount(){$/;"	function	line:20
 render	/Users/annacho/waves/client/src/components/utils/collapseRadio.js	/^  render () {$/;"	function	line:63
-switch	/Users/annacho/waves/client/src/reducers/products_reducer.js	/^  switch(action.type){$/;"	function	line:10
 class.grid	/Users/annacho/waves/client/src/components/Shop/index.js	/^  state = {$/;"	property	line:19
 class.limit	/Users/annacho/waves/client/src/components/Shop/index.js	/^    grid:'',$/;"	property	line:20
 class.skip	/Users/annacho/waves/client/src/components/Shop/index.js	/^    limit:6,$/;"	property	line:21
 class.filters	/Users/annacho/waves/client/src/components/Shop/index.js	/^    skip:0,$/;"	property	line:22
 componentDidMount	/Users/annacho/waves/client/src/components/Shop/index.js	/^  componentDidMount(){$/;"	function	line:31
 render	/Users/annacho/waves/client/src/components/Shop/index.js	/^  render () {$/;"	function	line:102
-getProductsBySell	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getProductsBySell(){$/;"	function	line:12
-getProductsByArrival	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getProductsByArrival(){$/;"	function	line:23
-getProductsToShop	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getProductsToShop(skip, limit, filters =[], previousState = []){$/;"	function	line:33
-getBrands	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getBrands(){$/;"	function	line:63
-getWoods	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getWoods(){$/;"	function	line:73
 renderCardImage	/Users/annacho/waves/client/src/components/utils/card.js	/^  renderCardImage(images){$/;"	function	line:6
 render	/Users/annacho/waves/client/src/components/utils/card.js	/^  render () {$/;"	function	line:14
+render	/Users/annacho/waves/client/src/components/User/Admin/add_products.js	/^  render () {$/;"	function	line:4
+switch	/Users/annacho/waves/client/src/components/utils/Form/formfield.js	/^    switch(formdata.element){$/;"	function	line:24
+getProductsBySell	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getProductsBySell(){$/;"	function	line:14
+getProductsByArrival	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getProductsByArrival(){$/;"	function	line:25
+getProductsToShop	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getProductsToShop(skip, limit, filters =[], previousState = []){$/;"	function	line:35
+addProduct	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function addProduct(dataToSubmit){$/;"	function	line:61
+clearProduct	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function clearProduct(){$/;"	function	line:72
+getBrands	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getBrands(){$/;"	function	line:83
+getWoods	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getWoods(){$/;"	function	line:93
+switch	/Users/annacho/waves/client/src/reducers/products_reducer.js	/^  switch(action.type){$/;"	function	line:12
+class.formError	/Users/annacho/waves/client/src/components/User/Admin/add_product.js	/^  state = {$/;"	property	line:12
+class.formSuccess	/Users/annacho/waves/client/src/components/User/Admin/add_product.js	/^    formError:false,$/;"	property	line:13
+class.formdata	/Users/annacho/waves/client/src/components/User/Admin/add_product.js	/^    formSuccess:false,$/;"	property	line:14
+componentDidMount	/Users/annacho/waves/client/src/components/User/Admin/add_product.js	/^  componentDidMount(){$/;"	function	line:230
+render	/Users/annacho/waves/client/src/components/User/Admin/add_product.js	/^  render () {$/;"	function	line:244
