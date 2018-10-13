@@ -4,8 +4,8 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-class.formError	/Users/annacho/waves/client/src/components/User/Admin/add_product.js	/^  state = {$/;"	property	line:12
-class.formSuccess	/Users/annacho/waves/client/src/components/User/Admin/add_product.js	/^    formError:false,$/;"	property	line:13
-class.formdata	/Users/annacho/waves/client/src/components/User/Admin/add_product.js	/^    formSuccess:false,$/;"	property	line:14
-componentDidMount	/Users/annacho/waves/client/src/components/User/Admin/add_product.js	/^  componentDidMount(){$/;"	function	line:230
-render	/Users/annacho/waves/client/src/components/User/Admin/add_product.js	/^  render () {$/;"	function	line:244
+constructor	/Users/annacho/waves/client/src/components/utils/Form/fileupload.js	/^  constructor(){$/;"	function	line:10
+state.uploadedFiles	/Users/annacho/waves/client/src/components/utils/Form/fileupload.js	/^    this.state = {$/;"	property	line:12
+const.header	/Users/annacho/waves/client/src/components/utils/Form/fileupload.js	/^    const config = {$/;"	property	line:21
+return.uploadedFiles	/Users/annacho/waves/client/src/components/utils/Form/fileupload.js	/^      return state = {$/;"	property	line:74
+render	/Users/annacho/waves/client/src/components/utils/Form/fileupload.js	/^  render () {$/;"	function	line:81
