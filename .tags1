@@ -4,8 +4,4 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-constructor	/Users/annacho/waves/client/src/components/utils/Form/fileupload.js	/^  constructor(){$/;"	function	line:10
-state.uploadedFiles	/Users/annacho/waves/client/src/components/utils/Form/fileupload.js	/^    this.state = {$/;"	property	line:12
-const.header	/Users/annacho/waves/client/src/components/utils/Form/fileupload.js	/^    const config = {$/;"	property	line:21
-return.uploadedFiles	/Users/annacho/waves/client/src/components/utils/Form/fileupload.js	/^      return state = {$/;"	property	line:74
-render	/Users/annacho/waves/client/src/components/utils/Form/fileupload.js	/^  render () {$/;"	function	line:81
+switch	/Users/annacho/waves/client/src/reducers/products_reducer.js	/^  switch(action.type){$/;"	function	line:14
