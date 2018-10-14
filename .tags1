@@ -4,5 +4,6 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-componentDidMount	/Users/annacho/waves/client/src/components/Product/index.js	/^  componentDidMount(){$/;"	function	line:12
-render	/Users/annacho/waves/client/src/components/Product/index.js	/^  render () {$/;"	function	line:21
+componentDidMount	/Users/annacho/waves/client/src/components/Product/index.js	/^  componentDidMount(){$/;"	function	line:13
+addToCartHandler	/Users/annacho/waves/client/src/components/Product/index.js	/^  addToCartHandler(id){$/;"	function	line:22
+render	/Users/annacho/waves/client/src/components/Product/index.js	/^  render () {$/;"	function	line:26

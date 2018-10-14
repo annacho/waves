@@ -3,7 +3,6 @@ componentDidMount	/Users/annacho/waves/client/src/hoc/auth.js	/^    componentDid
 render	/Users/annacho/waves/client/src/hoc/auth.js	/^    render () {$/;"	function	line:35
 mapStateToProps	/Users/annacho/waves/client/src/hoc/auth.js	/^  function mapStateToProps(state){$/;"	function	line:49
 mapStateToProps	/Users/annacho/waves/client/src/hoc/auth.js	/^  function mapStateToProps(state){$/;"	function	line:49
-switch	/Users/annacho/waves/client/src/reducers/user_reducer.js	/^  switch(action.type){$/;"	function	line:9
 class.page	/Users/annacho/waves/client/src/components/Header_footer/Header/index.js	/^  state = {$/;"	property	line:9
 render	/Users/annacho/waves/client/src/components/Header_footer/Header/index.js	/^  render () {$/;"	function	line:108
 mapStateToProps	/Users/annacho/waves/client/src/components/Header_footer/Header/index.js	/^function mapStateToProps(state){$/;"	function	line:131
@@ -19,10 +18,6 @@ const.lineOne	/Users/annacho/waves/client/src/components/Home/home_promotion.js	
 const.lineTwo	/Users/annacho/waves/client/src/components/Home/home_promotion.js	/^    lineOne:'Up to 40% off',$/;"	property	line:8
 const.linkTitle	/Users/annacho/waves/client/src/components/Home/home_promotion.js	/^    lineTwo:'In second hand guitars',$/;"	property	line:9
 const.linkTo	/Users/annacho/waves/client/src/components/Home/home_promotion.js	/^    linkTitle:'Shop now',$/;"	property	line:10
-registerUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function registerUser(dataToSubmit){$/;"	function	line:11
-loginUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function loginUser(dataToSubmit){$/;"	function	line:22
-auth	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function auth(){$/;"	function	line:33
-logoutUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function logoutUser(){$/;"	function	line:45
 componentDidMount	/Users/annacho/waves/client/src/components/Home/index.js	/^  componentDidMount(){$/;"	function	line:11
 render	/Users/annacho/waves/client/src/components/Home/index.js	/^  render () {$/;"	function	line:16
 class.open	/Users/annacho/waves/client/src/components/utils/collapseCheckbox.js	/^  state = {$/;"	property	line:15
@@ -39,8 +34,6 @@ class.skip	/Users/annacho/waves/client/src/components/Shop/index.js	/^    limit:
 class.filters	/Users/annacho/waves/client/src/components/Shop/index.js	/^    skip:0,$/;"	property	line:22
 componentDidMount	/Users/annacho/waves/client/src/components/Shop/index.js	/^  componentDidMount(){$/;"	function	line:31
 render	/Users/annacho/waves/client/src/components/Shop/index.js	/^  render () {$/;"	function	line:102
-renderCardImage	/Users/annacho/waves/client/src/components/utils/card.js	/^  renderCardImage(images){$/;"	function	line:6
-render	/Users/annacho/waves/client/src/components/utils/card.js	/^  render () {$/;"	function	line:14
 render	/Users/annacho/waves/client/src/components/User/Admin/add_products.js	/^  render () {$/;"	function	line:4
 switch	/Users/annacho/waves/client/src/components/utils/Form/formfield.js	/^    switch(formdata.element){$/;"	function	line:24
 constructor	/Users/annacho/waves/client/src/components/utils/Form/fileupload.js	/^  constructor(){$/;"	function	line:10
@@ -84,5 +77,14 @@ render	/Users/annacho/waves/client/src/components/Product/prodImg.js	/^  render(
 class.lightboxIsOpen	/Users/annacho/waves/client/src/components/utils/lightbox.js	/^  state = {$/;"	property	line:6
 class.currentImage	/Users/annacho/waves/client/src/components/utils/lightbox.js	/^    lightboxIsOpen: true,$/;"	property	line:7
 render	/Users/annacho/waves/client/src/components/utils/lightbox.js	/^  render () {$/;"	function	line:41
-componentDidMount	/Users/annacho/waves/client/src/components/Product/index.js	/^  componentDidMount(){$/;"	function	line:12
-render	/Users/annacho/waves/client/src/components/Product/index.js	/^  render () {$/;"	function	line:21
+renderCardImage	/Users/annacho/waves/client/src/components/utils/card.js	/^  renderCardImage(images){$/;"	function	line:9
+render	/Users/annacho/waves/client/src/components/utils/card.js	/^  render () {$/;"	function	line:17
+registerUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function registerUser(dataToSubmit){$/;"	function	line:12
+loginUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function loginUser(dataToSubmit){$/;"	function	line:23
+auth	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function auth(){$/;"	function	line:34
+logoutUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function logoutUser(){$/;"	function	line:46
+addToCart	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function addToCart(_id){$/;"	function	line:58
+switch	/Users/annacho/waves/client/src/reducers/user_reducer.js	/^  switch(action.type){$/;"	function	line:10
+componentDidMount	/Users/annacho/waves/client/src/components/Product/index.js	/^  componentDidMount(){$/;"	function	line:13
+addToCartHandler	/Users/annacho/waves/client/src/components/Product/index.js	/^  addToCartHandler(id){$/;"	function	line:22
+render	/Users/annacho/waves/client/src/components/Product/index.js	/^  render () {$/;"	function	line:26
