@@ -4,4 +4,5 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-switch	/Users/annacho/waves/client/src/reducers/products_reducer.js	/^  switch(action.type){$/;"	function	line:14
+componentDidMount	/Users/annacho/waves/client/src/components/Product/index.js	/^  componentDidMount(){$/;"	function	line:12
+render	/Users/annacho/waves/client/src/components/Product/index.js	/^  render () {$/;"	function	line:21

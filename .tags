@@ -25,7 +25,6 @@ auth	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function a
 logoutUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function logoutUser(){$/;"	function	line:45
 componentDidMount	/Users/annacho/waves/client/src/components/Home/index.js	/^  componentDidMount(){$/;"	function	line:11
 render	/Users/annacho/waves/client/src/components/Home/index.js	/^  render () {$/;"	function	line:16
-switch	/Users/annacho/waves/client/src/components/utils/button.js	/^    switch(props.type){$/;"	function	line:12
 class.open	/Users/annacho/waves/client/src/components/utils/collapseCheckbox.js	/^  state = {$/;"	property	line:15
 class.checked	/Users/annacho/waves/client/src/components/utils/collapseCheckbox.js	/^    open: false,$/;"	property	line:16
 componentDidMount	/Users/annacho/waves/client/src/components/utils/collapseCheckbox.js	/^  componentDidMount(){$/;"	function	line:20
@@ -59,18 +58,31 @@ class.formSuccess	/Users/annacho/waves/client/src/components/User/Admin/manage_b
 class.formdata	/Users/annacho/waves/client/src/components/User/Admin/manage_brands.js	/^    formSuccess:false,$/;"	property	line:13
 componentDidMount	/Users/annacho/waves/client/src/components/User/Admin/manage_brands.js	/^  componentDidMount(){$/;"	function	line:82
 render	/Users/annacho/waves/client/src/components/User/Admin/manage_brands.js	/^  render(){$/;"	function	line:86
-getProductsBySell	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getProductsBySell(){$/;"	function	line:16
-getProductsByArrival	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getProductsByArrival(){$/;"	function	line:27
-getProductsToShop	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getProductsToShop(skip, limit, filters =[], previousState = []){$/;"	function	line:37
-addProduct	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function addProduct(dataToSubmit){$/;"	function	line:63
-clearProduct	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function clearProduct(){$/;"	function	line:74
-getBrands	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getBrands(){$/;"	function	line:85
-addBrand	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function addBrand(dataToSubmit, existingBrands){$/;"	function	line:95
-addWood	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function addWood(dataToSubmit, existingWoods){$/;"	function	line:116
-getWoods	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getWoods(){$/;"	function	line:137
 class.formError	/Users/annacho/waves/client/src/components/User/Admin/manage_woods.js	/^  state = {$/;"	property	line:11
 class.formSuccess	/Users/annacho/waves/client/src/components/User/Admin/manage_woods.js	/^    formError:false,$/;"	property	line:12
 class.formdata	/Users/annacho/waves/client/src/components/User/Admin/manage_woods.js	/^    formSuccess:false,$/;"	property	line:13
 componentDidMount	/Users/annacho/waves/client/src/components/User/Admin/manage_woods.js	/^  componentDidMount(){$/;"	function	line:82
 render	/Users/annacho/waves/client/src/components/User/Admin/manage_woods.js	/^  render(){$/;"	function	line:86
-switch	/Users/annacho/waves/client/src/reducers/products_reducer.js	/^  switch(action.type){$/;"	function	line:14
+switch	/Users/annacho/waves/client/src/reducers/products_reducer.js	/^  switch(action.type){$/;"	function	line:16
+getProductDetail	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getProductDetail(id){$/;"	function	line:18
+clearProductDetail	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function clearProductDetail(){$/;"	function	line:31
+getProductsBySell	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getProductsBySell(){$/;"	function	line:38
+getProductsByArrival	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getProductsByArrival(){$/;"	function	line:49
+getProductsToShop	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getProductsToShop(skip, limit, filters =[], previousState = []){$/;"	function	line:59
+addProduct	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function addProduct(dataToSubmit){$/;"	function	line:85
+clearProduct	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function clearProduct(){$/;"	function	line:96
+getBrands	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getBrands(){$/;"	function	line:107
+addBrand	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function addBrand(dataToSubmit, existingBrands){$/;"	function	line:117
+addWood	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function addWood(dataToSubmit, existingWoods){$/;"	function	line:138
+getWoods	/Users/annacho/waves/client/src/actions/products_actions.js	/^export function getWoods(){$/;"	function	line:159
+switch	/Users/annacho/waves/client/src/components/utils/button.js	/^    switch(props.type){$/;"	function	line:12
+class.lightbox	/Users/annacho/waves/client/src/components/Product/prodImg.js	/^  state = {$/;"	property	line:6
+class.imagePos	/Users/annacho/waves/client/src/components/Product/prodImg.js	/^    lightbox: false,$/;"	property	line:7
+class.lightboxImages	/Users/annacho/waves/client/src/components/Product/prodImg.js	/^    imagePos:0,$/;"	property	line:8
+componentDidMount	/Users/annacho/waves/client/src/components/Product/prodImg.js	/^  componentDidMount(){$/;"	function	line:12
+render	/Users/annacho/waves/client/src/components/Product/prodImg.js	/^  render() {$/;"	function	line:62
+class.lightboxIsOpen	/Users/annacho/waves/client/src/components/utils/lightbox.js	/^  state = {$/;"	property	line:6
+class.currentImage	/Users/annacho/waves/client/src/components/utils/lightbox.js	/^    lightboxIsOpen: true,$/;"	property	line:7
+render	/Users/annacho/waves/client/src/components/utils/lightbox.js	/^  render () {$/;"	function	line:41
+componentDidMount	/Users/annacho/waves/client/src/components/Product/index.js	/^  componentDidMount(){$/;"	function	line:12
+render	/Users/annacho/waves/client/src/components/Product/index.js	/^  render () {$/;"	function	line:21
