@@ -4,3 +4,8 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+class.formError	/Users/annacho/waves/client/src/components/User/update_personal_nfo.js	/^state = {$/;"	property	line:11
+class.formSuccess	/Users/annacho/waves/client/src/components/User/update_personal_nfo.js	/^  formError: false,$/;"	property	line:12
+class.formdata	/Users/annacho/waves/client/src/components/User/update_personal_nfo.js	/^  formSuccess: false,$/;"	property	line:13
+componentDidMount	/Users/annacho/waves/client/src/components/User/update_personal_nfo.js	/^  componentDidMount(){$/;"	function	line:99
+render	/Users/annacho/waves/client/src/components/User/update_personal_nfo.js	/^  render () {$/;"	function	line:106
