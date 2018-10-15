@@ -79,12 +79,24 @@ class.currentImage	/Users/annacho/waves/client/src/components/utils/lightbox.js	
 render	/Users/annacho/waves/client/src/components/utils/lightbox.js	/^  render () {$/;"	function	line:41
 renderCardImage	/Users/annacho/waves/client/src/components/utils/card.js	/^  renderCardImage(images){$/;"	function	line:9
 render	/Users/annacho/waves/client/src/components/utils/card.js	/^  render () {$/;"	function	line:17
-registerUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function registerUser(dataToSubmit){$/;"	function	line:12
-loginUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function loginUser(dataToSubmit){$/;"	function	line:23
-auth	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function auth(){$/;"	function	line:34
-logoutUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function logoutUser(){$/;"	function	line:46
-addToCart	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function addToCart(_id){$/;"	function	line:58
-switch	/Users/annacho/waves/client/src/reducers/user_reducer.js	/^  switch(action.type){$/;"	function	line:10
 componentDidMount	/Users/annacho/waves/client/src/components/Product/index.js	/^  componentDidMount(){$/;"	function	line:13
 addToCartHandler	/Users/annacho/waves/client/src/components/Product/index.js	/^  addToCartHandler(id){$/;"	function	line:22
 render	/Users/annacho/waves/client/src/components/Product/index.js	/^  render () {$/;"	function	line:26
+render	/Users/annacho/waves/client/src/components/utils/paypal.js	/^  render() {$/;"	function	line:5
+const.sandbox	/Users/annacho/waves/client/src/components/utils/paypal.js	/^    const client = {$/;"	property	line:44
+const.production	/Users/annacho/waves/client/src/components/utils/paypal.js	/^      sandbox:'AcuddMeem1gORT7GvliYGRJBo4hbN2OVfrk1cPF2v5UDIyCtjccBqCBlvpYMj90e03obSWVHX0_0jYEA',$/;"	property	line:45
+registerUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function registerUser(dataToSubmit){$/;"	function	line:15
+loginUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function loginUser(dataToSubmit){$/;"	function	line:26
+auth	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function auth(){$/;"	function	line:37
+logoutUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function logoutUser(){$/;"	function	line:49
+addToCart	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function addToCart(_id){$/;"	function	line:61
+getCartItems	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function getCartItems(cartItems, userCart){$/;"	function	line:72
+removeCartItem	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function removeCartItem(id){$/;"	function	line:93
+onSuccessBuy	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function onSuccessBuy(data){$/;"	function	line:114
+switch	/Users/annacho/waves/client/src/reducers/user_reducer.js	/^  switch(action.type){$/;"	function	line:13
+class.loading	/Users/annacho/waves/client/src/components/User/cart.js	/^  state = {$/;"	property	line:18
+class.total	/Users/annacho/waves/client/src/components/User/cart.js	/^    loading: true,$/;"	property	line:19
+class.showTotal	/Users/annacho/waves/client/src/components/User/cart.js	/^    total:0,$/;"	property	line:20
+class.showSuccess	/Users/annacho/waves/client/src/components/User/cart.js	/^    showTotal: false,$/;"	property	line:21
+componentDidMount	/Users/annacho/waves/client/src/components/User/cart.js	/^  componentDidMount(){$/;"	function	line:25
+render	/Users/annacho/waves/client/src/components/User/cart.js	/^  render () {$/;"	function	line:103
