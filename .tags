@@ -107,3 +107,13 @@ class.formSuccess	/Users/annacho/waves/client/src/components/User/update_persona
 class.formdata	/Users/annacho/waves/client/src/components/User/update_personal_nfo.js	/^  formSuccess: false,$/;"	property	line:13
 componentDidMount	/Users/annacho/waves/client/src/components/User/update_personal_nfo.js	/^  componentDidMount(){$/;"	function	line:99
 render	/Users/annacho/waves/client/src/components/User/update_personal_nfo.js	/^  render () {$/;"	function	line:106
+getSiteData	/Users/annacho/waves/client/src/actions/site_actions.js	/^export function getSiteData(){$/;"	function	line:9
+updateSiteData	/Users/annacho/waves/client/src/actions/site_actions.js	/^export function updateSiteData(dataToSubmit){$/;"	function	line:20
+switch	/Users/annacho/waves/client/src/reducers/site_reducer.js	/^  switch(action.type){$/;"	function	line:7
+class.formError	/Users/annacho/waves/client/src/components/User/Admin/update_site_nfo.js	/^  state = {$/;"	property	line:11
+class.formSuccess	/Users/annacho/waves/client/src/components/User/Admin/update_site_nfo.js	/^    formError: false,$/;"	property	line:12
+class.formdata	/Users/annacho/waves/client/src/components/User/Admin/update_site_nfo.js	/^    formSuccess: false,$/;"	property	line:13
+componentDidMount	/Users/annacho/waves/client/src/components/User/Admin/update_site_nfo.js	/^  componentDidMount(){$/;"	function	line:120
+render	/Users/annacho/waves/client/src/components/User/Admin/update_site_nfo.js	/^  render () {$/;"	function	line:130
+componentDidMount	/Users/annacho/waves/client/src/hoc/layout.js	/^  componentDidMount(){$/;"	function	line:11
+render	/Users/annacho/waves/client/src/hoc/layout.js	/^  render () {$/;"	function	line:17

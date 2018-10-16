@@ -5,8 +5,9 @@ import faPhone from '@fortawesome/fontawesome-free-solid/faPhone';
 import faClock from '@fortawesome/fontawesome-free-solid/faClock';
 import faEnvelope from '@fortawesome/fontawesome-free-solid/faEnvelope';
 
-const Footer = () => {
+const Footer = ({data}) => {
   return (
+    data.siteData ?
     <footer className="bck_b_dark">
       <div className="container">
         <div className="logo">
@@ -23,7 +24,7 @@ const Footer = () => {
                 />
                 <div className="nfo">
                   <div>Address</div>
-                  <div>Kramer 2345</div>
+                  <div>{data.siteData[0].address}</div>
                 </div>
               </div>
               <div className="tag">
@@ -33,7 +34,7 @@ const Footer = () => {
                 />
                 <div className="nfo">
                   <div>Phone</div>
-                  <div>2345-2222</div>
+                  <div>{data.siteData[0].phone}</div>
                 </div>
               </div>
               <div className="tag">
@@ -43,7 +44,7 @@ const Footer = () => {
                 />
                 <div className="nfo">
                   <div>Working hours</div>
-                  <div>Mon-Sun/ 9am-8pm</div>
+                  <div>{data.siteData[0].hours}</div>
                 </div>
               </div>
               <div className="tag">
@@ -53,7 +54,7 @@ const Footer = () => {
                 />
                 <div className="nfo">
                   <div>Email</div>
-                  <div>nfo@waves.com</div>
+                  <div>{data.siteData[0].email}</div>
                 </div>
               </div>
             </div>
@@ -62,13 +63,14 @@ const Footer = () => {
             <h2>Be the first to know</h2>
             <div>
               <div>
-                Get all the latest information on events, sales and offers. You can miss out. 
+                Get all the latest information on events, sales and offers. You can miss out.
               </div>
             </div>
           </div>
         </div>
       </div>
     </footer>
+    :null
   );
 };
 
