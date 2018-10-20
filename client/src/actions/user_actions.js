@@ -9,7 +9,7 @@ import {
   REMOVE_CART_ITEM_USER,
   ON_SUCCESS_BUY_USER,
   UPDATE_DATA_USER,
-  CLEAR_UPDATE_USER_DATA
+  CLEAR_UPDATE_DATA_USER
 } from './types';
 
 import { USER_SERVER, PRODUCT_SERVER } from '../components/utils/misc';
@@ -137,7 +137,7 @@ export function updateUserData(dataToSubmit){
 
 export function clearUpdateUser(){
   return {
-    type: CLEAR_UPDATE_USER_DATA,
+    type: CLEAR_UPDATE_DATA_USER,
     payload: ''
   }
 }

@@ -125,7 +125,7 @@ class AddProduct extends Component {
         config:{
           label: 'Wood material',
           name: 'wood_input',
-          options:[]          ]
+          options:[]
         },
         validation:{
           required: true
@@ -146,7 +146,8 @@ class AddProduct extends Component {
             {key:21,value:'21'},
             {key:22,value:'22'},
             {key:24,value:'24'},
-          ],
+          ]
+        },
         validation:{
           required: true
         },

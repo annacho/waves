@@ -41,11 +41,6 @@ state.uploadedFiles	/Users/annacho/waves/client/src/components/utils/Form/fileup
 const.header	/Users/annacho/waves/client/src/components/utils/Form/fileupload.js	/^    const config = {$/;"	property	line:21
 return.uploadedFiles	/Users/annacho/waves/client/src/components/utils/Form/fileupload.js	/^      return state = {$/;"	property	line:74
 render	/Users/annacho/waves/client/src/components/utils/Form/fileupload.js	/^  render () {$/;"	function	line:81
-class.formError	/Users/annacho/waves/client/src/components/User/Admin/add_product.js	/^  state = {$/;"	property	line:13
-class.formSuccess	/Users/annacho/waves/client/src/components/User/Admin/add_product.js	/^    formError:false,$/;"	property	line:14
-class.formdata	/Users/annacho/waves/client/src/components/User/Admin/add_product.js	/^    formSuccess:false,$/;"	property	line:15
-componentDidMount	/Users/annacho/waves/client/src/components/User/Admin/add_product.js	/^  componentDidMount(){$/;"	function	line:241
-render	/Users/annacho/waves/client/src/components/User/Admin/add_product.js	/^  render () {$/;"	function	line:267
 class.formError	/Users/annacho/waves/client/src/components/User/Admin/manage_brands.js	/^  state = {$/;"	property	line:11
 class.formSuccess	/Users/annacho/waves/client/src/components/User/Admin/manage_brands.js	/^    formError:false,$/;"	property	line:12
 class.formdata	/Users/annacho/waves/client/src/components/User/Admin/manage_brands.js	/^    formSuccess:false,$/;"	property	line:13
@@ -91,17 +86,6 @@ class.showTotal	/Users/annacho/waves/client/src/components/User/cart.js	/^    to
 class.showSuccess	/Users/annacho/waves/client/src/components/User/cart.js	/^    showTotal: false,$/;"	property	line:21
 componentDidMount	/Users/annacho/waves/client/src/components/User/cart.js	/^  componentDidMount(){$/;"	function	line:25
 render	/Users/annacho/waves/client/src/components/User/cart.js	/^  render () {$/;"	function	line:103
-registerUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function registerUser(dataToSubmit){$/;"	function	line:17
-loginUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function loginUser(dataToSubmit){$/;"	function	line:28
-auth	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function auth(){$/;"	function	line:39
-logoutUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function logoutUser(){$/;"	function	line:51
-addToCart	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function addToCart(_id){$/;"	function	line:63
-getCartItems	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function getCartItems(cartItems, userCart){$/;"	function	line:74
-removeCartItem	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function removeCartItem(id){$/;"	function	line:95
-onSuccessBuy	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function onSuccessBuy(data){$/;"	function	line:116
-updateUserData	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function updateUserData(dataToSubmit){$/;"	function	line:127
-clearUpdateUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function clearUpdateUser(){$/;"	function	line:138
-switch	/Users/annacho/waves/client/src/reducers/user_reducer.js	/^  switch(action.type){$/;"	function	line:15
 class.formError	/Users/annacho/waves/client/src/components/User/update_personal_nfo.js	/^state = {$/;"	property	line:11
 class.formSuccess	/Users/annacho/waves/client/src/components/User/update_personal_nfo.js	/^  formError: false,$/;"	property	line:12
 class.formdata	/Users/annacho/waves/client/src/components/User/update_personal_nfo.js	/^  formSuccess: false,$/;"	property	line:13
@@ -117,3 +101,24 @@ componentDidMount	/Users/annacho/waves/client/src/components/User/Admin/update_s
 render	/Users/annacho/waves/client/src/components/User/Admin/update_site_nfo.js	/^  render () {$/;"	function	line:130
 componentDidMount	/Users/annacho/waves/client/src/hoc/layout.js	/^  componentDidMount(){$/;"	function	line:11
 render	/Users/annacho/waves/client/src/hoc/layout.js	/^  render () {$/;"	function	line:17
+switch	/Users/annacho/waves/client/src/reducers/user_reducer.js	/^  switch(action.type){$/;"	function	line:15
+registerUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function registerUser(dataToSubmit){$/;"	function	line:17
+loginUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function loginUser(dataToSubmit){$/;"	function	line:28
+auth	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function auth(){$/;"	function	line:39
+logoutUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function logoutUser(){$/;"	function	line:51
+addToCart	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function addToCart(_id){$/;"	function	line:63
+getCartItems	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function getCartItems(cartItems, userCart){$/;"	function	line:74
+removeCartItem	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function removeCartItem(id){$/;"	function	line:95
+onSuccessBuy	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function onSuccessBuy(data){$/;"	function	line:116
+updateUserData	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function updateUserData(dataToSubmit){$/;"	function	line:127
+clearUpdateUser	/Users/annacho/waves/client/src/actions/user_actions.js	/^export function clearUpdateUser(){$/;"	function	line:138
+class.formError	/Users/annacho/waves/client/src/components/User/Admin/add_product.js	/^  state = {$/;"	property	line:13
+class.formSuccess	/Users/annacho/waves/client/src/components/User/Admin/add_product.js	/^    formError:false,$/;"	property	line:14
+class.formdata	/Users/annacho/waves/client/src/components/User/Admin/add_product.js	/^    formSuccess:false,$/;"	property	line:15
+componentDidMount	/Users/annacho/waves/client/src/components/User/Admin/add_product.js	/^  componentDidMount(){$/;"	function	line:241
+render	/Users/annacho/waves/client/src/components/User/Admin/add_product.js	/^  render () {$/;"	function	line:267
+switch	/Users/annacho/waves/server/utils/mail/index.js	/^  switch(template){$/;"	function	line:8
+case.from	/Users/annacho/waves/server/utils/mail/index.js	/^      data = {$/;"	property	line:10
+case.to	/Users/annacho/waves/server/utils/mail/index.js	/^        from: "Waves <waves.guitars.rev@gmail.com>",$/;"	property	line:11
+case.subject	/Users/annacho/waves/server/utils/mail/index.js	/^        to: "francis.jones.rev@gmail.com",$/;"	property	line:12
+case.html	/Users/annacho/waves/server/utils/mail/index.js	/^        subject: 'Welcome to waves ${name}',$/;"	property	line:13

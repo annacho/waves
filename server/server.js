@@ -3,6 +3,12 @@ const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const formidable = require('express-formidable');
 const cloudinary = require('cloudinary');
+const mailer = require('nodemailer');
+const SHA1 = require("crypto-js/sha1");
+const multer = require('multer');
+const moment = require("moment");
+const fs = require('fs');
+const path = require('path');
 
 const app = express();
 const mongoose = require('mongoose');
@@ -33,6 +39,86 @@ const { Site } = require('./models/site');
 // Middlewares
 const { auth } = require('./middleware/auth');
 const { admin } = require('./middleware/admin');
+
+// UTILS
+const { sendEmail } = require('./utils/mail/index');
+
+// const date = new Date();
+// const po = `PO-${date.getSeconds()}${date.getMilliseconds()}-${SHA1("17176562362IDKHJFJB")
+// .toString().substring(0,8)}`
+//
+// console.log(po)
+
+// const smtpTransport = mailer.createTransport({
+//   service:"Gmail",
+//   auth:{
+//     user: "waves.guitars.rev@gmail.com",
+//     pass: "fulltone1985"
+//   }
+// });
+//
+// var mail = {
+//   from: "Waves <waves.guitars.rev@gmail.com",
+//   to: "francis.jones.rev@gmail.com",
+//   subject: "Send test email",
+//   text: "Testing our waves mails",
+//   html: "<b>Hellow guys this works</b>"
+// }
+//
+// smtpTransport.sendMail(mail,function(error,responds){
+//   if(error){
+//     console.log(error);
+//   } else {
+//     console.log('email sent')
+//   }
+//   smtpTransport.close();
+// })
+
+const multer = require('multer');
+let storage = multer.diskStorage({
+  destination:(req,file,cb)=>{
+    cb(null,'uploads/')
+  },
+  filename:(req,file,cb)=>{
+    cb(null,`${Date.now()}_${file.originalname}`)
+  },
+  // fileFilter:(req,file,cb)=>{
+  //
+  //   const ext = path.extname(file.originalname)
+  //   if(ext !== '.jpg' && ext !== '.png'){
+  //     return cb(res.status(400).end('only jpg, png is allowed'), false)
+  //   }
+  //
+  //   cb(null,true)
+  // }
+});
+
+const upload = multer({storage:storage }).single('file')
+
+app.post('/api/users/uploadfile',auth,admin,(req,res)=>{
+
+  upload(req,res,(err)=>{
+    if(err){
+      return res.json({success:false,err})
+    }
+    return res.json({success:true})
+  })
+})
+
+const fs = require('fs');
+const path = require('path');
+
+app.get('/api/users/admin_files',auth,admin,(req,res)=>{
+  const dir = path.resolve(".")+'/uploads/';
+  fs.readdir(dir,(err,items)=>{
+    return res.status(200).send(items);
+  })
+});
+
+app.get('/api/users/download/:id',auth,admin,(req,res)=>{
+  const file = path.resolve(".")+`/uploads/${req.params.id}`;
+  res.download(file)
+})
 
 //=================================
 //              PRODUCTS
@@ -183,6 +269,44 @@ app.get('/api/product/brands',(req,res)=>{
 //              USERS
 //=================================
 
+app.post('/api/users/reset_user',(req,res)=>{
+  User.findOne(
+    {'email':req.body.email},
+    (err,user)=>{
+      user.generateResetToken((err,user)=>{
+        if(err) return res.json({success:false,err});
+        sendEmail(user.email,user.name,null,"reset_password",user)
+        return res.json({success:true})
+      })
+    }
+  )
+})
+
+app.post('/api/users/reset_password',(req,res)=>{
+
+  var today = moment().startOf('day').valueOf();
+
+  User.findOne({
+    resetToken: req.body.resetToken;
+    resetTokenExp:{
+      $gte: today
+    }
+  },(err,user)=>{
+    if(user) return res.json({success:false,message:'Sorry, tokne bad, generate a new one.'})
+
+    user.password = req.body.password;
+    user.resetToken = '';
+    user.resetTokenExp = '';
+
+    user.save((err,doc)=>{
+      if(err) return res.json({success:false,err});
+      return res.status(200).json({
+        success: true
+      })
+    })
+  })
+})
+
 app.get('/api/users/auth',auth,(req,res)=>{
   res.status(200).json({
     isAdmin: req.user.role === 0 ? false : true,
@@ -201,12 +325,12 @@ app.post('/api/users/register',(req,res)=>{
 
   user.save((err,doc)=>{
     if(err) return res.json({success:false,err});
-    res.status(200).json({
-      success: true,
-      userdata: doc
+    sendEmail(doc.email, doc.name, null,"welcome");
+    return res.status(200).json({
+      success: true
     })
   })
-})
+});
 
 app.post('/api/users/login',(req,res)=>{
 
@@ -332,10 +456,14 @@ app.get('/api/users/removeFromCart',auth,(req,res)=>{
 app.post('/api/users/successBuy',auth,(req,res)=>{
   let history = [];
   let transactionData = {}
+  const date = new Date();
+  const po = `PO-${date.getSeconds()}${date.getMilliseconds()}-${SHA1(req.user._id)
+  .toString().substring(0,8)}`
 
   // User History
   req.body.cartDetail.forEach((item)=>{
     history.push({
+      porder: po,
       dateOfPurchase: Date.now(),
       name: item.name,
       brand: item.brand.name,
@@ -353,7 +481,10 @@ app.post('/api/users/successBuy',auth,(req,res)=>{
     lastname: req.user._lastname,
     email: req.user._email
   }
-  transactionData.data = req.body.paymentData;
+  transactionData.data = {
+    ...req.body.paymentData,
+    porder: po
+  };
   transactionData.product = history;
 
   User.findOneAndUpdate(
@@ -381,7 +512,8 @@ app.post('/api/users/successBuy',auth,(req,res)=>{
             callback
           )
         },(err)=>{
-          if(err) return res.json({success:false,err})
+          if(err) return res.json({success:false,err};
+          sendEmail(user.email,user.name,null,"purchase",transactionData)
           res.status(200).json({
             success:true,
             cart: user.cart,
